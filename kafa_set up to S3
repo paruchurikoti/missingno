@@ -1,0 +1,8 @@
+create Kafka connection to S3 bucket
+
+confluent_kafka module to create kafka consumer that can read from kafka topics
+logging module used to log messages that describes what is happening in the code and how long the data should be formatted and which file log those messages
+pymsteams module used to send messages to MS teams channel
+send_email function used to send auto email notification for any issues with consuming data from Kafka topics or storing data in S3 bucket
+Get_lag_message_count used tp calculate numer of meesages that have not been consumed by Kafka consumer.
+run_kafka_consumer_job function will be used to create a kafka consumer object to read data from kafka topics
